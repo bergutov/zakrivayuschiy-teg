@@ -1,43 +1,13 @@
-@media (prefers-color-scheme: light) {
-    :root {
-        --bg-color: #FFFFFF;
-        --accent-color: #000000;
-        --accent-color-rgb: 0, 0, 0;
-        --bg-image: url(../svg/pattern-light.svg);
-        --normal-font-weight: 400;
-        --bold-font-weight: 700;
-        --fill-contour-color: #000000;
-    }
-}
-
-:root .theme-light {
-    --bg-color: #FFFFFF;
-    --accent-color: #000000;
-    --accent-color-rgb: 0, 0, 0;
-    --bg-image: url(../svg/pattern-light.svg);
-    --normal-font-weight: 400;
-    --bold-font-weight: 700;
-    --fill-contour-color: #000000;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #000000;
-        --accent-color: #00cc14;
-        --accent-color-rgb: 0, 204, 20;
-        --bg-image: url(../svg/pattern-dark.svg);
-        --normal-font-weight: 465;
-        --bold-font-weight: 785;
-        --fill-contour-color: #00cc14;
-    }
-}
-
-:root .theme-dark {
+:root {
     --bg-color: #000000;
     --accent-color: #00cc14;
     --accent-color-rgb: 0, 204, 20;
     --bg-image: url(../svg/pattern-dark.svg);
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P';
     --normal-font-weight: 465;
     --bold-font-weight: 785;
+    --content-width: clamp(20.833rem, 14.554rem + 30.141vw, 38.667rem);
     --fill-contour-color: #00cc14;
+    --fill-core-color: #FFFFFF;
 }
